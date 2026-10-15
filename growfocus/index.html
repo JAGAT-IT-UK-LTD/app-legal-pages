@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>GrowFocus — Privacy Policy</title>
+<style>
+  body { max-width: 640px; margin: 40px auto; padding: 0 20px; font-family: -apple-system, "Segoe UI", Roboto, sans-serif; line-height: 1.6; color: #222; }
+  h1 { font-size: 22px; }
+  h2 { font-size: 16px; margin-top: 28px; }
+  .updated { color: #666; font-size: 13px; margin-bottom: 24px; }
+</style>
+</head>
+<body>
+  <h1>GrowFocus — Privacy Policy</h1>
+  <div class="updated">Last updated: August 22, 2026</div>
+
+  <p>GrowFocus is a Chrome extension that grows a visual tree the longer you stay on sites you've marked as productive, and lets it wilt when you visit sites you've marked as distracting.</p>
+
+  <h2>What data GrowFocus collects</h2>
+  <p>None. GrowFocus does not collect, transmit, sell, or share any data. It does not have a server or backend of any kind.</p>
+
+  <h2>What GrowFocus stores, and where</h2>
+  <p>GrowFocus stores the following, entirely inside your own browser via the <code>chrome.storage.local</code> API:</p>
+  <ul>
+    <li>The list of domains you mark as "productive" or "distracting"</li>
+    <li>Your current growth score (0–100) and today's focused/distracted minute counts</li>
+  </ul>
+  <p>This data never leaves your device. It is not synced to any external server, not sent to the developer, and not shared with any third party.</p>
+
+  <h2>Why GrowFocus needs the permissions it asks for</h2>
+  <ul>
+    <li><strong>storage</strong> — to save your site lists and growth score locally.</li>
+    <li><strong>tabs</strong> — to read the hostname (e.g. "github.com") of your currently active tab, so GrowFocus can tell whether it's on your productive or distracting list. GrowFocus never reads page content, page title, or full URLs with paths/query strings — only the hostname.</li>
+    <li><strong>alarms</strong> — to check the active tab roughly once a minute in the background, using Chrome's alarm scheduler instead of keeping the extension constantly running.</li>
+  </ul>
+
+  <h2>Third parties</h2>
+  <p>GrowFocus makes no network requests and integrates with no third-party analytics, advertising, or tracking services.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If this policy changes, the updated version will be posted at this same URL with a new "Last updated" date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: <a href="mailto:ruhulsedu001@gmail.com">ruhulsedu001@gmail.com</a></p>
+</body>
+</html>
