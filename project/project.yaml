@@ -1,0 +1,29 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: app-legal-pages
+  title: "app-legal-pages"
+  description: "TBC"
+  annotations:
+    github.com/project-slug: JAGAT-IT-UK-LTD/app-legal-pages
+  tags: ["static-html"]
+spec:
+  type: website
+  lifecycle: production
+  owner: user:ruhulamin0001
+  system: "Apps"
+x-passport:
+  family: "Apps"
+  domains: []
+  live_url: "TBC"
+  hosting: "GitHub Pages"
+  apps: "TBC"
+  payments: "TBC"
+  email: "TBC"
+  database: "TBC"
+  env_names: []
+  ai_agents: []
+  progress: "Last push 2026-10-15. Description: TBC"
+  last_updated: "2026-10-15"
+  updated_by: "Grok Bot (passport generator)"
+  completeness: 26
